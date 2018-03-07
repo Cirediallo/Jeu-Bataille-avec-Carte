@@ -5,6 +5,7 @@ public enum Couleur{
 	TREFLE;
 	
 	public boolean couleurSuperieur(Couleur c2) {
+		/*
 		if(this.ordinal() > c2.ordinal()) {
 			
 			return true;
@@ -12,6 +13,8 @@ public enum Couleur{
 			
 			return false;
 		}
+		*/
+		return this.ordinal() > c2.ordinal();
 	}
 	
 }
