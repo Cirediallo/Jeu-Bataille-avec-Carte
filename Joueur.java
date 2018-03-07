@@ -34,10 +34,13 @@ public abstract class Joueur {
 	}
 	
 	public boolean aPerdu() {
+		/*
 		if(this.paquet.estVide()) {
 			return true;
 		}else
 			return false;
+		*/
+		return this.paquet.estVide() ? true : false;
 	}
 	
 	public int getScore() {
